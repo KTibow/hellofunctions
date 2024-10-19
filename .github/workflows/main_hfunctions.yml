@@ -21,5 +21,5 @@ jobs:
         with:
           app-name: hfunctions
           slot-name: Production
-          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CAF1542826994EF0A154557AA79ACED7 }}
