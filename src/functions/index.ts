@@ -10,7 +10,7 @@ const hello = async (
   context: InvocationContext
 ): Promise<HttpResponseInit> => {
   return {
-    body: "Hello, World!",
+    body: "New world.",
   };
 };
 
