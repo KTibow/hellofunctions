@@ -15,7 +15,7 @@ jobs:
       - name: Build
         run: |
           npm install
-          npm build
+          npm run build
       - name: Deploy to Azure Functions
         uses: azure/functions-action@v1
         with:
